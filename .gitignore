@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Окружение
+.venv/
+.env
+
+# Данные
+qdrant_data/
+data/eval_report.json
+
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

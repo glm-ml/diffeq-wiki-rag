@@ -1,0 +1,11 @@
+# Корпус: разделы англоязычной Википедии о дифференциальных уравнениях.
+# Служебные разделы (References, See also, External links и т.п.)
+# отбрасываются автоматически в app/ingest/wikipedia.py.
+language: en
+articles:
+  - title: "Lipschitz continuity"
+  - title: "Linear differential equation"
+  - title: "Ordinary differential equation"
+  - title: "Picard–Lindelöf theorem"
+  - title: "Integrating factor"
+  - title: "Wronskian"

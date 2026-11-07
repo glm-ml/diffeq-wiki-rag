@@ -1,0 +1,46 @@
+[project]
+name = "diffeq-wiki-rag"
+version = "0.1.0"
+description = "Agentic RAG-ассистент по статьям Википедии о дифференциальных уравнениях"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "pydantic>=2.7",
+    "pydantic-settings>=2.3",
+    "gradio>=5.0",
+    "langchain>=0.3,<2",
+    "langchain-core>=0.3,<2",
+    "langchain-community>=0.3,<0.4",
+    "langchain-openai>=0.3,<2",
+    "langchain-text-splitters>=0.3,<2",
+    "langchain-huggingface>=0.3,<2",
+    "langchain-qdrant>=0.2,<2",
+    "langgraph>=0.2,<2",
+    "qdrant-client>=1.12",
+    "sentence-transformers>=3.0",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.2",
+    "httpx>=0.27",
+    "pyyaml>=6.0",
+    "ddgs>=9.0",
+    "structlog>=24.1",
+    "tabulate>=0.9",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24",
+    "ipykernel>=6.29",
+    "nbclient>=0.10",
+    "nbconvert>=7.16",
+    "ragas>=0.4.3",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
