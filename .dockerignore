@@ -1,0 +1,13 @@
+.git
+.github
+.venv
+__pycache__
+*.py[cod]
+.pytest_cache
+.ipynb_checkpoints
+.ruff_cache
+qdrant_data
+.env
+eval
+tests
+*.md

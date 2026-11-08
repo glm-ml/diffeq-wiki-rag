@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install uv
+        run: pip install uv
+
+      - name: Install dependencies
+        run: |
+          uv export --frozen --group dev --no-hashes -o requirements.txt
+          grep -v -E '^(nvidia-|cuda-|triton)' requirements.txt > requirements-cpu.txt
+          uv venv
+          uv pip install --torch-backend=cpu -r requirements-cpu.txt
+
+      - name: Run tests
+        run: .venv/bin/python -m pytest
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: docker/setup-buildx-action@v3
+
+      - name: Build image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: false
+          tags: diffeq-wiki-rag:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max

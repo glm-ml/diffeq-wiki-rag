@@ -1,0 +1,56 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.12.4
+    restart: unless-stopped
+    volumes:
+      - qdrant_storage:/qdrant/storage
+
+  app:
+    build: .
+    image: ghcr.io/glm-ml/diffeq-wiki-rag:latest
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:?добавьте DEEPSEEK_API_KEY в .env}
+      LLM_MODEL: ${LLM_MODEL:-deepseek-chat}
+      QDRANT_URL: http://qdrant:6333
+      ENABLE_WEB_SEARCH: ${ENABLE_WEB_SEARCH:-true}
+      OMP_NUM_THREADS: "1"
+      MKL_NUM_THREADS: "1"
+      TOKENIZERS_PARALLELISM: "false"
+      PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:-https://195.62.49.192.nip.io}
+    volumes:
+      - hf_cache:/models
+    depends_on:
+      - qdrant
+
+  nginx:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      DOMAIN: ${DOMAIN:-195.62.49.192.nip.io}
+    volumes:
+      - ./nginx/templates:/etc/nginx/templates:ro
+      - letsencrypt:/etc/letsencrypt:ro
+      - certbot_www:/var/www/certbot:ro
+    depends_on:
+      - app
+
+  certbot:
+    image: certbot/certbot
+    profiles: ["tools"]
+    ports:
+      - "80:80"
+    volumes:
+      - letsencrypt:/etc/letsencrypt
+      - certbot_www:/var/www/certbot
+
+volumes:
+  qdrant_storage:
+  hf_cache:
+  letsencrypt:
+  certbot_www:
