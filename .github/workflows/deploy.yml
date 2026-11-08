@@ -50,7 +50,8 @@ jobs:
             set -e
             cd /opt/diffeq-wiki-rag
             echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
-            git pull --ff-only
+            git fetch origin
+            git reset --hard origin/main
             docker compose pull app nginx
             docker compose up -d --no-build
             for attempt in $(seq 1 120); do
