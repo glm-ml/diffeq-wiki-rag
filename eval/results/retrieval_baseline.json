@@ -1,0 +1,800 @@
+{
+  "summary": {
+    "questions": 30,
+    "article_hit@1": 0.7333,
+    "section_hit@1": 0.3,
+    "recall@1": 0.1056,
+    "precision@1": 0.1667,
+    "article_hit@3": 0.8333,
+    "section_hit@3": 0.5,
+    "recall@3": 0.2444,
+    "precision@3": 0.1444,
+    "article_hit@5": 0.9,
+    "section_hit@5": 0.7,
+    "recall@5": 0.3722,
+    "precision@5": 0.1467,
+    "mrr": 0.7872
+  },
+  "rows": [
+    {
+      "id": "lipschitz-def-01",
+      "topic": "lipschitz",
+      "type": "definition",
+      "difficulty": "easy",
+      "question": "Что такое условие Липшица для отображения между метрическими пространствами?",
+      "article_rank": 1.0,
+      "section_rank": 1.0,
+      "top1_article": "Lipschitz continuity",
+      "top1_section": "Definitions",
+      "gold_count": 2,
+      "relevant_retrieved": 0,
+      "recall_topk": 0.0,
+      "precision_topk": 0.0,
+      "gold_keys": [
+        "Lipschitz continuity::Definitions::0",
+        "Lipschitz continuity::Definitions::1"
+      ],
+      "retrieved_keys": [
+        "Lipschitz continuity::Definitions::2",
+        "Lipschitz continuity::Overview::0",
+        "Lipschitz continuity::Properties::3",
+        "Picard–Lindelöf theorem::Detailed proof::0",
+        "Lipschitz continuity::One-sided Lipschitz::0"
+      ]
+    },
+    {
+      "id": "lipschitz-example-02",
+      "topic": "lipschitz",
+      "type": "example",
+      "difficulty": "easy",
+      "question": "Приведи пример липшицевой функции и пример функции, которая не является липшицевой.",
+      "article_rank": 1.0,
+      "section_rank": 3.0,
+      "top1_article": "Lipschitz continuity",
+      "top1_section": "Properties",
+      "gold_count": 2,
+      "relevant_retrieved": 1,
+      "recall_topk": 0.5,
+      "precision_topk": 0.2,
+      "gold_keys": [
+        "Lipschitz continuity::Examples::0",
+        "Lipschitz continuity::Examples::2"
+      ],
+      "retrieved_keys": [
+        "Lipschitz continuity::Properties::6",
+        "Picard–Lindelöf theorem::Detailed proof::0",
+        "Lipschitz continuity::Examples::1",
+        "Lipschitz continuity::One-sided Lipschitz::0",
+        "Lipschitz continuity::Examples::2"
+      ]
+    },
+    {
+      "id": "lipschitz-props-03",
+      "topic": "lipschitz",
+      "type": "properties",
+      "difficulty": "medium",
+      "question": "Какими свойствами обладают липшицевы функции и как они связаны с непрерывностью?",
+      "article_rank": 1.0,
+      "section_rank": 4.0,
+      "top1_article": "Lipschitz continuity",
+      "top1_section": "One-sided Lipschitz",
+      "gold_count": 3,
+      "relevant_retrieved": 1,
+      "recall_topk": 0.3333333333333333,
+      "precision_topk": 0.2,
+      "gold_keys": [
+        "Lipschitz continuity::Properties::0",
+        "Lipschitz continuity::Properties::1",
+        "Lipschitz continuity::Properties::4"
+      ],
+      "retrieved_keys": [
+        "Lipschitz continuity::One-sided Lipschitz::0",
+        "Lipschitz continuity::Examples::0",
+        "Picard–Lindelöf theorem::Detailed proof::0",
+        "Lipschitz continuity::Properties::6",
+        "Lipschitz continuity::Properties::4"
+      ]
+    },
+    {
+      "id": "lipschitz-picard-04",
+      "topic": "lipschitz",
+      "type": "multi_hop",
+      "difficulty": "hard",
+      "question": "Почему условие Липшица важно для теоремы Пикара–Линделёфа?",
+      "article_rank": 1.0,
+      "section_rank": NaN,
+      "top1_article": "Lipschitz continuity",
+      "top1_section": "Overview",
+      "gold_count": 3,
+      "relevant_retrieved": 0,
+      "recall_topk": 0.0,
+      "precision_topk": 0.0,
+      "gold_keys": [
+        "Picard–Lindelöf theorem::Theorem::0",
+        "Lipschitz continuity::Definitions::1",
+        "Lipschitz continuity::Definitions::2"
+      ],
+      "retrieved_keys": [
+        "Lipschitz continuity::Overview::1",
+        "Picard–Lindelöf theorem::Detailed proof::0",
+        "Picard–Lindelöf theorem::Overview::0",
+        "Lipschitz continuity::Properties::2",
+        "Picard–Lindelöf theorem::Other existence theorems::0"
+      ]
+    },
+    {
+      "id": "linearode-general-05",
+      "topic": "linear_ode",
+      "type": "definition",
+      "difficulty": "easy",
+      "question": "Что такое линейное дифференциальное уравнение n-го порядка?",
+      "article_rank": 1.0,
+      "section_rank": 1.0,
+      "top1_article": "Linear differential equation",
+      "top1_section": "Overview",
+      "gold_count": 1,
+      "relevant_retrieved": 1,
+      "recall_topk": 1.0,
+      "precision_topk": 0.2,
+      "gold_keys": [
+        "Linear differential equation::Overview::0"
+      ],
+      "retrieved_keys": [
+        "Linear differential equation::Overview::0",
+        "Ordinary differential equation::Linear differential equations::0",
+        "Wronskian::Application to linear differential equations::1",
+        "Linear differential equation::Basic terminology::1",
+        "Linear differential equation::Homogeneous equation with constant coefficients::0"
+      ]
+    },
+    {
+      "id": "linearode-homconst-06",
+      "topic": "linear_ode",
+      "type": "method",
+      "difficulty": "medium",
+      "question": "Как решается однородное линейное дифференциальное уравнение с постоянными коэффициентами?",
+      "article_rank": 1.0,
+      "section_rank": 3.0,
+      "top1_article": "Linear differential equation",
+      "top1_section": "Types of solution",
+      "gold_count": 2,
+      "relevant_retrieved": 1,
+      "recall_topk": 0.5,
+      "precision_topk": 0.2,
+      "gold_keys": [
+        "Linear differential equation::Homogeneous equation with constant coefficients::0",
+        "Linear differential equation::Homogeneous equation with constant coefficients::3"
+      ],
+      "retrieved_keys": [
+        "Linear differential equation::Types of solution::0",
+        "Picard–Lindelöf theorem::Example of non-uniqueness::0",
+        "Linear differential equation::Homogeneous equation with constant coefficients::0",
+        "Ordinary differential equation::Guessing solutions::0",
+        "Wronskian::Application to linear differential equations::0"
+      ]
+    },
+    {
+      "id": "linearode-charpoly-07",
+      "topic": "linear_ode",
+      "type": "method",
+      "difficulty": "medium",
+      "question": "Что такое характеристическое уравнение и как его корни определяют вид решений?",
+      "article_rank": 1.0,
+      "section_rank": 4.0,
+      "top1_article": "Linear differential equation",
+      "top1_section": "Non-homogeneous equation with constant coefficients",
+      "gold_count": 2,
+      "relevant_retrieved": 2,
+      "recall_topk": 1.0,
+      "precision_topk": 0.4,
+      "gold_keys": [
+        "Linear differential equation::Homogeneous equation with constant coefficients::1",
+        "Linear differential equation::Homogeneous equation with constant coefficients::3"
+      ],
+      "retrieved_keys": [
+        "Linear differential equation::Non-homogeneous equation with constant coefficients::2",
+        "Integrating factor::Use::Solving second order linear ordinary differential equations → Example 1::0",
+        "Wronskian::Application to linear differential equations::0",
+        "Linear differential equation::Homogeneous equation with constant coefficients::3",
+        "Linear differential equation::Homogeneous equation with constant coefficients::1"
+      ]
+    },
+    {
+      "id": "linearode-nonhom-08",
+      "topic": "linear_ode",
+      "type": "method",
+      "difficulty": "medium",
+      "question": "Как устроено общее решение неоднородного линейного дифференциального уравнения?",
+      "article_rank": 5.0,
+      "section_rank": NaN,
+      "top1_article": "Wronskian",
+      "top1_section": "Application to linear differential equations",
+      "gold_count": 2,
+      "relevant_retrieved": 0,
+      "recall_topk": 0.0,
+      "precision_topk": 0.0,
+      "gold_keys": [
+        "Linear differential equation::Non-homogeneous equation with constant coefficients::2",
+        "Linear differential equation::Non-homogeneous equation with constant coefficients::3"
+      ],
+      "retrieved_keys": [
+        "Wronskian::Application to linear differential equations::1",
+        "Wronskian::Application to linear differential equations::0",
+        "Picard–Lindelöf theorem::Example of non-uniqueness::0",
+        "Ordinary differential equation::Guessing solutions::0",
+        "Linear differential equation::Basic terminology::1"
+      ]
+    },
+    {
+      "id": "linearode-system-09",
+      "topic": "linear_ode",
+      "type": "multi_hop",
+      "difficulty": "medium",
+      "question": "Как линейное уравнение n-го порядка сводится к системе уравнений первого порядка?",
+      "article_rank": 1.0,
+      "section_rank": 1.0,
+      "top1_article": "Linear differential equation",
+      "top1_section": "System of linear differential equations",
+      "gold_count": 3,
+      "relevant_retrieved": 2,
+      "recall_topk": 0.6666666666666666,
+      "precision_topk": 0.4,
+      "gold_keys": [
+        "Linear differential equation::System of linear differential equations::1",
+        "Linear differential equation::System of linear differential equations::0",
+        "Ordinary differential equation::Reduction of order::Reduction to a first-order system::0"
+      ],
+      "retrieved_keys": [
+        "Linear differential equation::System of linear differential equations::0",
+        "Linear differential equation::System of linear differential equations::1",
+        "Linear differential equation::Non-homogeneous equation with constant coefficients::3",
+        "Wronskian::Application to linear differential equations::1",
+        "Wronskian::Application to linear differential equations::0"
+      ]
+    },
+    {
+      "id": "ode-def-10",
+      "topic": "ode",
+      "type": "definition",
+      "difficulty": "easy",
+      "question": "Что такое обыкновенное дифференциальное уравнение и что называют его порядком?",
+      "article_rank": NaN,
+      "section_rank": NaN,
+      "top1_article": "Wronskian",
+      "top1_section": "Application to linear differential equations",
+      "gold_count": 2,
+      "relevant_retrieved": 0,
+      "recall_topk": 0.0,
+      "precision_topk": 0.0,
+      "gold_keys": [
+        "Ordinary differential equation::Definition::0",
+        "Ordinary differential equation::Definition::2"
+      ],
+      "retrieved_keys": [
+        "Wronskian::Application to linear differential equations::1",
+        "Linear differential equation::Overview::0",
+        "Linear differential equation::First-order equation with variable coefficients::0",
+        "Wronskian::Application to linear differential equations::0",
+        "Integrating factor::Use::Solving second order linear ordinary differential equations → Example 1::0"
+      ]
+    },
+    {
+      "id": "ode-linear-11",
+      "topic": "ode",
+      "type": "definition",
+      "difficulty": "easy",
+      "question": "Какие дифференциальные уравнения называют линейными?",
+      "article_rank": 1.0,
+      "section_rank": 1.0,
+      "top1_article": "Ordinary differential equation",
+      "top1_section": "Linear differential equations",
+      "gold_count": 2,
+      "relevant_retrieved": 1,
+      "recall_topk": 0.5,
+      "precision_topk": 0.2,
+      "gold_keys": [
+        "Ordinary differential equation::Linear differential equations::0",
+        "Ordinary differential equation::Linear differential equations::1"
+      ],
+      "retrieved_keys": [
+        "Ordinary differential equation::Linear differential equations::0",
+        "Linear differential equation::Basic terminology::1",
+        "Linear differential equation::Overview::0",
+        "Linear differential equation::Homogeneous equation with constant coefficients::0",
+        "Wronskian::Application to linear differential equations::1"
+      ]
+    },
+    {
+      "id": "ode-reduction-12",
+      "topic": "ode",
+      "type": "method",
+      "difficulty": "medium",
+      "question": "Как свести уравнение n-го порядка к системе первого порядка?",
+      "article_rank": NaN,
+      "section_rank": NaN,
+      "top1_article": "Linear differential equation",
+      "top1_section": "Non-homogeneous equation with constant coefficients",
+      "gold_count": 2,
+      "relevant_retrieved": 0,
+      "recall_topk": 0.0,
+      "precision_topk": 0.0,
+      "gold_keys": [
+        "Ordinary differential equation::Reduction of order::Reduction to a first-order system::0",
+        "Ordinary differential equation::Reduction of order::0"
+      ],
+      "retrieved_keys": [
+        "Linear differential equation::Non-homogeneous equation with constant coefficients::2",
+        "Linear differential equation::System of linear differential equations::0",
+        "Wronskian::Application to linear differential equations::0",
+        "Linear differential equation::Non-homogeneous equation with constant coefficients::3",
+        "Linear differential equation::System of linear differential equations::1"
+      ]
+    },
+    {
+      "id": "ode-existence-13",
+      "topic": "ode",
+      "type": "theorem",
+      "difficulty": "medium",
+      "question": "Что утверждает теорема существования и единственности для задачи Коши?",
+      "article_rank": 3.0,
+      "section_rank": 3.0,
+      "top1_article": "Picard–Lindelöf theorem",
+      "top1_section": "Overview",
+      "gold_count": 2,
+      "relevant_retrieved": 1,
+      "recall_topk": 0.5,
+      "precision_topk": 0.2,
+      "gold_keys": [
+        "Ordinary differential equation::Existence and uniqueness of solutions::Local existence and uniqueness theorem simplified::0",
+        "Ordinary differential equation::Existence and uniqueness of solutions::Global uniqueness and maximum domain of solution::0"
+      ],
+      "retrieved_keys": [
+        "Picard–Lindelöf theorem::Overview::0",
+        "Picard–Lindelöf theorem::Other existence theorems::0",
+        "Ordinary differential equation::Existence and uniqueness of solutions::0",
+        "Ordinary differential equation::Guessing solutions::0",
+        "Ordinary differential equation::Existence and uniqueness of solutions::Global uniqueness and maximum domain of solution::0"
+      ]
+    },
+    {
+      "id": "picard-theorem-14",
+      "topic": "picard",
+      "type": "theorem",
+      "difficulty": "medium",
+      "question": "Сформулируй теорему Пикара–Линделёфа.",
+      "article_rank": 1.0,
+      "section_rank": NaN,
+      "top1_article": "Picard–Lindelöf theorem",
+      "top1_section": "Detailed proof",
+      "gold_count": 1,
+      "relevant_retrieved": 0,
+      "recall_topk": 0.0,
+      "precision_topk": 0.0,
+      "gold_keys": [
+        "Picard–Lindelöf theorem::Theorem::0"
+      ],
+      "retrieved_keys": [
+        "Picard–Lindelöf theorem::Detailed proof::0",
+        "Picard–Lindelöf theorem::Proof sketch::1",
+        "Picard–Lindelöf theorem::Optimization of the solution's interval::0",
+        "Picard–Lindelöf theorem::Detailed proof::2",
+        "Picard–Lindelöf theorem::Overview::0"
+      ]
+    },
+    {
+      "id": "picard-conditions-15",
+      "topic": "picard",
+      "type": "theorem",
+      "difficulty": "medium",
+      "question": "Какие условия теоремы Пикара–Линделёфа гарантируют существование и единственность решения?",
+      "article_rank": 1.0,
+      "section_rank": NaN,
+      "top1_article": "Picard–Lindelöf theorem",
+      "top1_section": "Other existence theorems",
+      "gold_count": 1,
+      "relevant_retrieved": 0,
+      "recall_topk": 0.0,
+      "precision_topk": 0.0,
+      "gold_keys": [
+        "Picard–Lindelöf theorem::Theorem::0"
+      ],
+      "retrieved_keys": [
+        "Picard–Lindelöf theorem::Other existence theorems::0",
+        "Picard–Lindelöf theorem::Overview::0",
+        "Ordinary differential equation::Existence and uniqueness of solutions::Global uniqueness and maximum domain of solution::0",
+        "Ordinary differential equation::Existence and uniqueness of solutions::0",
+        "Picard–Lindelöf theorem::Global existence of solution::0"
+      ]
+    },
+    {
+      "id": "picard-nonunique-16",
+      "topic": "picard",
+      "type": "example",
+      "difficulty": "hard",
+      "question": "Приведи пример задачи Коши, у которой нет единственности решения, и объясни причину.",
+      "article_rank": NaN,
+      "section_rank": NaN,
+      "top1_article": "Linear differential equation",
+      "top1_section": "System of linear differential equations",
+      "gold_count": 2,
+      "relevant_retrieved": 0,
+      "recall_topk": 0.0,
+      "precision_topk": 0.0,
+      "gold_keys": [
+        "Picard–Lindelöf theorem::Example of non-uniqueness::1",
+        "Picard–Lindelöf theorem::Example of non-uniqueness::0"
+      ],
+      "retrieved_keys": [
+        "Linear differential equation::System of linear differential equations::3",
+        "Ordinary differential equation::Guessing solutions::0",
+        "Linear differential equation::Homogeneous equation with constant coefficients::2",
+        "Integrating factor::Use::Solving first order linear ordinary differential equations::2",
+        "Ordinary differential equation::Summary of exact solutions::General first-order equations::1"
+      ]
+    },
+    {
+      "id": "picard-iteration-17",
+      "topic": "picard",
+      "type": "method",
+      "difficulty": "medium",
+      "question": "Что такое итерации Пикара?",
+      "article_rank": 1.0,
+      "section_rank": NaN,
+      "top1_article": "Picard–Lindelöf theorem",
+      "top1_section": "Proof sketch",
+      "gold_count": 1,
+      "relevant_retrieved": 0,
+      "recall_topk": 0.0,
+      "precision_topk": 0.0,
+      "gold_keys": [
+        "Picard–Lindelöf theorem::Example of Picard iteration::0"
+      ],
+      "retrieved_keys": [
+        "Picard–Lindelöf theorem::Proof sketch::1",
+        "Picard–Lindelöf theorem::Proof sketch::0",
+        "Picard–Lindelöf theorem::Detailed proof::6",
+        "Picard–Lindelöf theorem::Other existence theorems::0",
+        "Picard–Lindelöf theorem::Overview::0"
+      ]
+    },
+    {
+      "id": "picard-global-18",
+      "topic": "picard",
+      "type": "theorem",
+      "difficulty": "hard",
+      "question": "Когда решение задачи Коши можно продолжить на весь рассматриваемый интервал?",
+      "article_rank": 2.0,
+      "section_rank": NaN,
+      "top1_article": "Linear differential equation",
+      "top1_section": "Higher order with variable coefficients",
+      "gold_count": 2,
+      "relevant_retrieved": 0,
+      "recall_topk": 0.0,
+      "precision_topk": 0.0,
+      "gold_keys": [
+        "Picard–Lindelöf theorem::Global existence of solution::1",
+        "Picard–Lindelöf theorem::Global existence of solution::0"
+      ],
+      "retrieved_keys": [
+        "Linear differential equation::Higher order with variable coefficients::1",
+        "Picard–Lindelöf theorem::Optimization of the solution's interval::2",
+        "Ordinary differential equation::Existence and uniqueness of solutions::Local existence and uniqueness theorem simplified::0",
+        "Linear differential equation::First-order equation with variable coefficients::0",
+        "Integrating factor::Use::Solving first order linear ordinary differential equations::2"
+      ]
+    },
+    {
+      "id": "integrating-def-19",
+      "topic": "integrating_factor",
+      "type": "definition",
+      "difficulty": "easy",
+      "question": "Что такое интегрирующий множитель?",
+      "article_rank": 1.0,
+      "section_rank": 1.0,
+      "top1_article": "Integrating factor",
+      "top1_section": "Use",
+      "gold_count": 2,
+      "relevant_retrieved": 0,
+      "recall_topk": 0.0,
+      "precision_topk": 0.0,
+      "gold_keys": [
+        "Integrating factor::Overview::3",
+        "Integrating factor::Use::Solving first order linear ordinary differential equations::0"
+      ],
+      "retrieved_keys": [
+        "Integrating factor::Use::Solving first order linear ordinary differential equations::1",
+        "Linear differential equation::First-order equation with variable coefficients::0",
+        "Integrating factor::Use::Solving first order linear ordinary differential equations::2",
+        "Ordinary differential equation::Summary of exact solutions::General first-order equations::1",
+        "Linear differential equation::Holonomic functions::1"
+      ]
+    },
+    {
+      "id": "integrating-method-20",
+      "topic": "integrating_factor",
+      "type": "method",
+      "difficulty": "easy",
+      "question": "Как решить линейное уравнение первого порядка с помощью интегрирующего множителя?",
+      "article_rank": 4.0,
+      "section_rank": 4.0,
+      "top1_article": "Ordinary differential equation",
+      "top1_section": "Summary of exact solutions",
+      "gold_count": 2,
+      "relevant_retrieved": 0,
+      "recall_topk": 0.0,
+      "precision_topk": 0.0,
+      "gold_keys": [
+        "Integrating factor::Use::Solving first order linear ordinary differential equations::0",
+        "Integrating factor::Use::Solving first order linear ordinary differential equations::3"
+      ],
+      "retrieved_keys": [
+        "Ordinary differential equation::Summary of exact solutions::Linear to the n th order equations::0",
+        "Ordinary differential equation::Summary of exact solutions::Linear to the n th order equations::2",
+        "Ordinary differential equation::Summary of exact solutions::General first-order equations::1",
+        "Integrating factor::Use::Solving first order linear ordinary differential equations::2",
+        "Integrating factor::Use::Solving second order linear ordinary differential equations::0"
+      ]
+    },
+    {
+      "id": "integrating-exact-21",
+      "topic": "integrating_factor",
+      "type": "method",
+      "difficulty": "medium",
+      "question": "Как интегрирующий множитель помогает решать не точные уравнения?",
+      "article_rank": 1.0,
+      "section_rank": 1.0,
+      "top1_article": "Integrating factor",
+      "top1_section": "Use",
+      "gold_count": 2,
+      "relevant_retrieved": 0,
+      "recall_topk": 0.0,
+      "precision_topk": 0.0,
+      "gold_keys": [
+        "Integrating factor::Overview::3",
+        "Integrating factor::Use::Solving first order linear ordinary differential equations::0"
+      ],
+      "retrieved_keys": [
+        "Integrating factor::Use::Solving first order linear ordinary differential equations::1",
+        "Integrating factor::Use::Solving first order linear ordinary differential equations::2",
+        "Linear differential equation::First-order equation with variable coefficients::0",
+        "Linear differential equation::Non-homogeneous equation with constant coefficients::2",
+        "Wronskian::Application to linear differential equations::1"
+      ]
+    },
+    {
+      "id": "wronskian-def-22",
+      "topic": "wronskian",
+      "type": "definition",
+      "difficulty": "easy",
+      "question": "Что такое вронскиан?",
+      "article_rank": 1.0,
+      "section_rank": 1.0,
+      "top1_article": "Wronskian",
+      "top1_section": "Definition",
+      "gold_count": 1,
+      "relevant_retrieved": 1,
+      "recall_topk": 1.0,
+      "precision_topk": 0.2,
+      "gold_keys": [
+        "Wronskian::Definition::0"
+      ],
+      "retrieved_keys": [
+        "Wronskian::Definition::0",
+        "Wronskian::Overview::0",
+        "Wronskian::Generalized Wronskians::0",
+        "Wronskian::The Wronskian and linear independence::1",
+        "Wronskian::Application to linear differential equations::0"
+      ]
+    },
+    {
+      "id": "wronskian-independence-23",
+      "topic": "wronskian",
+      "type": "theorem",
+      "difficulty": "medium",
+      "question": "Как вронскиан связан с линейной независимостью решений?",
+      "article_rank": 1.0,
+      "section_rank": 2.0,
+      "top1_article": "Wronskian",
+      "top1_section": "Application to linear differential equations",
+      "gold_count": 2,
+      "relevant_retrieved": 2,
+      "recall_topk": 1.0,
+      "precision_topk": 0.4,
+      "gold_keys": [
+        "Wronskian::The Wronskian and linear independence::1",
+        "Wronskian::The Wronskian and linear independence::0"
+      ],
+      "retrieved_keys": [
+        "Wronskian::Application to linear differential equations::1",
+        "Wronskian::The Wronskian and linear independence::0",
+        "Wronskian::The Wronskian and linear independence::1",
+        "Wronskian::Definition::0",
+        "Wronskian::Application to linear differential equations::0"
+      ]
+    },
+    {
+      "id": "wronskian-application-24",
+      "topic": "wronskian",
+      "type": "method",
+      "difficulty": "medium",
+      "question": "Как вронскиан применяется к линейным дифференциальным уравнениям n-го порядка?",
+      "article_rank": 1.0,
+      "section_rank": 2.0,
+      "top1_article": "Wronskian",
+      "top1_section": "Definition",
+      "gold_count": 2,
+      "relevant_retrieved": 2,
+      "recall_topk": 1.0,
+      "precision_topk": 0.4,
+      "gold_keys": [
+        "Wronskian::Application to linear differential equations::0",
+        "Wronskian::Application to linear differential equations::1"
+      ],
+      "retrieved_keys": [
+        "Wronskian::Definition::0",
+        "Wronskian::Application to linear differential equations::1",
+        "Wronskian::Overview::0",
+        "Wronskian::Application to linear differential equations::0",
+        "Wronskian::Generalized Wronskians::0"
+      ]
+    },
+    {
+      "id": "wronskian-generalized-25",
+      "topic": "wronskian",
+      "type": "definition",
+      "difficulty": "easy",
+      "question": "Что такое обобщённый вронскиан?",
+      "article_rank": 1.0,
+      "section_rank": 3.0,
+      "top1_article": "Wronskian",
+      "top1_section": "Definition",
+      "gold_count": 1,
+      "relevant_retrieved": 1,
+      "recall_topk": 1.0,
+      "precision_topk": 0.2,
+      "gold_keys": [
+        "Wronskian::Generalized Wronskians::0"
+      ],
+      "retrieved_keys": [
+        "Wronskian::Definition::0",
+        "Wronskian::Overview::0",
+        "Wronskian::Generalized Wronskians::0",
+        "Wronskian::The Wronskian and linear independence::1",
+        "Wronskian::Application to linear differential equations::0"
+      ]
+    },
+    {
+      "id": "multi-lipschitz-picard-26",
+      "topic": "multi_hop",
+      "type": "multi_hop",
+      "difficulty": "hard",
+      "question": "Почему из условия Липшица следует единственность решения задачи Коши?",
+      "article_rank": 1.0,
+      "section_rank": 4.0,
+      "top1_article": "Picard–Lindelöf theorem",
+      "top1_section": "Optimization of the solution's interval",
+      "gold_count": 3,
+      "relevant_retrieved": 1,
+      "recall_topk": 0.3333333333333333,
+      "precision_topk": 0.2,
+      "gold_keys": [
+        "Picard–Lindelöf theorem::Theorem::0",
+        "Lipschitz continuity::Definitions::1",
+        "Lipschitz continuity::Definitions::3"
+      ],
+      "retrieved_keys": [
+        "Picard–Lindelöf theorem::Optimization of the solution's interval::2",
+        "Lipschitz continuity::One-sided Lipschitz::0",
+        "Lipschitz continuity::Properties::2",
+        "Picard–Lindelöf theorem::Theorem::0",
+        "Picard–Lindelöf theorem::Example of non-uniqueness::1"
+      ]
+    },
+    {
+      "id": "multi-wronskian-ode-27",
+      "topic": "multi_hop",
+      "type": "multi_hop",
+      "difficulty": "medium",
+      "question": "Как с помощью вронскиана проверить, что решения линейного уравнения образуют фундаментальную систему?",
+      "article_rank": 1.0,
+      "section_rank": 4.0,
+      "top1_article": "Wronskian",
+      "top1_section": "Application to linear differential equations",
+      "gold_count": 2,
+      "relevant_retrieved": 1,
+      "recall_topk": 0.5,
+      "precision_topk": 0.2,
+      "gold_keys": [
+        "Wronskian::The Wronskian and linear independence::0",
+        "Wronskian::Application to linear differential equations::1"
+      ],
+      "retrieved_keys": [
+        "Wronskian::Application to linear differential equations::0",
+        "Wronskian::Application to linear differential equations::1",
+        "Wronskian::Definition::0",
+        "Wronskian::The Wronskian and linear independence::1",
+        "Wronskian::Overview::0"
+      ]
+    },
+    {
+      "id": "multi-integrating-linear-28",
+      "topic": "multi_hop",
+      "type": "multi_hop",
+      "difficulty": "medium",
+      "question": "Как интегрирующий множитель связан с решением линейного уравнения первого порядка?",
+      "article_rank": 1.0,
+      "section_rank": 1.0,
+      "top1_article": "Integrating factor",
+      "top1_section": "Use",
+      "gold_count": 2,
+      "relevant_retrieved": 0,
+      "recall_topk": 0.0,
+      "precision_topk": 0.0,
+      "gold_keys": [
+        "Integrating factor::Use::Solving first order linear ordinary differential equations::0",
+        "Integrating factor::Use::Solving first order linear ordinary differential equations::3"
+      ],
+      "retrieved_keys": [
+        "Integrating factor::Use::Solving first order linear ordinary differential equations::1",
+        "Linear differential equation::First-order equation with variable coefficients::0",
+        "Wronskian::Application to linear differential equations::1",
+        "Picard–Lindelöf theorem::Example of non-uniqueness::0",
+        "Linear differential equation::System of linear differential equations::1"
+      ]
+    },
+    {
+      "id": "multi-charpoly-basis-29",
+      "topic": "multi_hop",
+      "type": "multi_hop",
+      "difficulty": "medium",
+      "question": "Как характеристический многочлен связан с базисом решений однородного уравнения?",
+      "article_rank": 1.0,
+      "section_rank": 1.0,
+      "top1_article": "Linear differential equation",
+      "top1_section": "Homogeneous equation with constant coefficients",
+      "gold_count": 3,
+      "relevant_retrieved": 3,
+      "recall_topk": 1.0,
+      "precision_topk": 0.6,
+      "gold_keys": [
+        "Linear differential equation::Homogeneous equation with constant coefficients::1",
+        "Linear differential equation::Homogeneous equation with constant coefficients::3",
+        "Linear differential equation::Homogeneous equation with constant coefficients::4"
+      ],
+      "retrieved_keys": [
+        "Linear differential equation::Homogeneous equation with constant coefficients::3",
+        "Linear differential equation::Homogeneous equation with constant coefficients::4",
+        "Linear differential equation::Homogeneous equation with constant coefficients::2",
+        "Linear differential equation::Non-homogeneous equation with constant coefficients::2",
+        "Linear differential equation::Homogeneous equation with constant coefficients::1"
+      ]
+    },
+    {
+      "id": "multi-reduction-system-30",
+      "topic": "multi_hop",
+      "type": "multi_hop",
+      "difficulty": "hard",
+      "question": "Зачем сводить уравнение n-го порядка к системе первого порядка и как это помогает анализу?",
+      "article_rank": 3.0,
+      "section_rank": 4.0,
+      "top1_article": "Wronskian",
+      "top1_section": "Application to linear differential equations",
+      "gold_count": 3,
+      "relevant_retrieved": 1,
+      "recall_topk": 0.3333333333333333,
+      "precision_topk": 0.2,
+      "gold_keys": [
+        "Linear differential equation::System of linear differential equations::1",
+        "Ordinary differential equation::Reduction of order::Reduction to a first-order system::0",
+        "Linear differential equation::System of linear differential equations::0"
+      ],
+      "retrieved_keys": [
+        "Wronskian::Application to linear differential equations::1",
+        "Wronskian::Application to linear differential equations::0",
+        "Linear differential equation::Non-homogeneous equation with constant coefficients::2",
+        "Linear differential equation::System of linear differential equations::1",
+        "Linear differential equation::Non-homogeneous equation with constant coefficients::3"
+      ]
+    }
+  ]
+}

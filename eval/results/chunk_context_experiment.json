@@ -1,0 +1,187 @@
+{
+  "variants": [
+    {
+      "variant": "baseline",
+      "questions": 30,
+      "article_hit@1": 0.7333,
+      "section_hit@1": 0.3,
+      "recall@1": 0.1056,
+      "precision@1": 0.1667,
+      "article_hit@3": 0.8333,
+      "section_hit@3": 0.5,
+      "recall@3": 0.2444,
+      "precision@3": 0.1444,
+      "article_hit@5": 0.9,
+      "section_hit@5": 0.7,
+      "recall@5": 0.3722,
+      "precision@5": 0.1467,
+      "mrr": 0.7872
+    },
+    {
+      "variant": "header",
+      "questions": 30,
+      "article_hit@1": 0.6667,
+      "section_hit@1": 0.3667,
+      "recall@1": 0.1222,
+      "precision@1": 0.2333,
+      "article_hit@3": 0.8,
+      "section_hit@3": 0.6333,
+      "recall@3": 0.35,
+      "precision@3": 0.2222,
+      "article_hit@5": 0.9333,
+      "section_hit@5": 0.7667,
+      "recall@5": 0.4556,
+      "precision@5": 0.1667,
+      "mrr": 0.765
+    },
+    {
+      "variant": "summary_short",
+      "questions": 30,
+      "article_hit@1": 0.8667,
+      "section_hit@1": 0.4667,
+      "recall@1": 0.1167,
+      "precision@1": 0.2,
+      "article_hit@3": 0.9667,
+      "section_hit@3": 0.6,
+      "recall@3": 0.3111,
+      "precision@3": 0.2111,
+      "article_hit@5": 1.0,
+      "section_hit@5": 0.8,
+      "recall@5": 0.5111,
+      "precision@5": 0.2067,
+      "mrr": 0.9194
+    },
+    {
+      "variant": "chunk_context",
+      "questions": 30,
+      "article_hit@1": 0.8,
+      "section_hit@1": 0.4333,
+      "recall@1": 0.1722,
+      "precision@1": 0.3,
+      "article_hit@3": 0.9,
+      "section_hit@3": 0.6333,
+      "recall@3": 0.4111,
+      "precision@3": 0.2667,
+      "article_hit@5": 0.9333,
+      "section_hit@5": 0.8,
+      "recall@5": 0.5611,
+      "precision@5": 0.22,
+      "mrr": 0.8528
+    },
+    {
+      "variant": "combined",
+      "questions": 30,
+      "article_hit@1": 0.8333,
+      "section_hit@1": 0.4667,
+      "recall@1": 0.1389,
+      "precision@1": 0.2333,
+      "article_hit@3": 0.9333,
+      "section_hit@3": 0.8,
+      "recall@3": 0.5167,
+      "precision@3": 0.3333,
+      "article_hit@5": 1.0,
+      "section_hit@5": 0.9,
+      "recall@5": 0.6556,
+      "precision@5": 0.26,
+      "mrr": 0.8944
+    }
+  ],
+  "per_topic_recall5": {
+    "baseline": {
+      "integrating_factor": 0.0,
+      "linear_ode": 0.633,
+      "lipschitz": 0.208,
+      "multi_hop": 0.433,
+      "ode": 0.25,
+      "picard": 0.0,
+      "wronskian": 1.0
+    },
+    "header": {
+      "integrating_factor": 0.167,
+      "linear_ode": 0.533,
+      "lipschitz": 0.292,
+      "multi_hop": 0.467,
+      "ode": 0.25,
+      "picard": 0.5,
+      "wronskian": 0.875
+    },
+    "summary_short": {
+      "integrating_factor": 0.5,
+      "linear_ode": 0.233,
+      "lipschitz": 0.292,
+      "multi_hop": 0.5,
+      "ode": 0.75,
+      "picard": 0.4,
+      "wronskian": 1.0
+    },
+    "chunk_context": {
+      "integrating_factor": 0.5,
+      "linear_ode": 0.733,
+      "lipschitz": 0.375,
+      "multi_hop": 0.633,
+      "ode": 0.5,
+      "picard": 0.2,
+      "wronskian": 1.0
+    },
+    "combined": {
+      "integrating_factor": 0.667,
+      "linear_ode": 0.7,
+      "lipschitz": 0.417,
+      "multi_hop": 0.7,
+      "ode": 0.875,
+      "picard": 0.3,
+      "wronskian": 1.0
+    }
+  },
+  "token_stats": [
+    {
+      "variant": "baseline",
+      "min": 10,
+      "p50": 213,
+      "mean": 216.7,
+      "max": 507,
+      "over_512": 0,
+      "context_truncated": 0
+    },
+    {
+      "variant": "header",
+      "min": 16,
+      "p50": 226,
+      "mean": 228.7,
+      "max": 510,
+      "over_512": 0,
+      "context_truncated": 1
+    },
+    {
+      "variant": "summary_short",
+      "min": 37,
+      "p50": 253,
+      "mean": 256.5,
+      "max": 510,
+      "over_512": 0,
+      "context_truncated": 4
+    },
+    {
+      "variant": "chunk_context",
+      "min": 70,
+      "p50": 297,
+      "mean": 292.6,
+      "max": 510,
+      "over_512": 0,
+      "context_truncated": 7
+    },
+    {
+      "variant": "combined",
+      "min": 97,
+      "p50": 337,
+      "mean": 331.0,
+      "max": 510,
+      "over_512": 0,
+      "context_truncated": 9
+    }
+  ],
+  "caches": {
+    "short_summaries": "eval/results/section_summaries_short.json",
+    "chunk_contexts": "eval/results/chunk_contexts.json"
+  }
+}

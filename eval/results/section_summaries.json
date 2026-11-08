@@ -1,0 +1,266 @@
+{
+  "Lipschitz continuity::Overview": {
+    "article": "Lipschitz continuity",
+    "section": "Overview",
+    "summary_en": "This overview defines Lipschitz continuity as a strong uniform-continuity regularity property bounded by the Lipschitz constant, distinguishing it via key inclusions, the double-cone intuition, and applications like Picard–Lindelöf.",
+    "summary_ru": "Раздел «Overview» посвящён определению липшицевой непрерывности как свойства регулярности функций между метрическими пространствами и её месту в иерархии непрерывности. В отличие от других разделов статьи, здесь даётся общий обзор понятия, ключевых теорем (Пикара–Линделёфа, Банаха) и включений между классами функций."
+  },
+  "Lipschitz continuity::Definitions": {
+    "article": "Lipschitz continuity",
+    "section": "Definitions",
+    "summary_en": "This section defines Lipschitz continuity via the metric inequality d_Y(f(x₁),f(x₂)) ≤ Kd_X(x₁,x₂), introducing Lipschitz constants, short maps, contractions, local Lipschitz continuity, Hölder continuity, and bilipschitz maps—distinguishing it from other sections by establishing the core terminology and equivalent formulations.",
+    "summary_ru": "Раздел посвящён формальному определению липшицевой непрерывности через метрики и константу K, включая частные случаи (сжатие, короткое отображение) и обобщения (локальная липшицевость, условие Гёльдера, билипшицевость). От других разделов он отличается тем, что вводит базовые термины и эквивалентные формулировки, а не изучает свойства или приложения."
+  },
+  "Lipschitz continuity::Examples": {
+    "article": "Lipschitz continuity",
+    "section": "Examples",
+    "summary_en": "This section provides examples of Lipschitz continuous functions (differentiable and non-differentiable) and distinguishes them from non-Lipschitz functions (continuous, differentiable, and analytic) by examining derivative bounds and steepness.",
+    "summary_ru": "Раздел посвящён примерам липшицевых и нелипшицевых функций, иллюстрирующим границы применимости условия Липшица через дифференцируемость, ограниченность производной и равномерную непрерывность. В отличие от других разделов статьи, здесь теоретические свойства демонстрируются на конкретных контрпримерах."
+  },
+  "Lipschitz continuity::Properties": {
+    "article": "Lipschitz continuity",
+    "section": "Properties",
+    "summary_en": "This section covers properties of Lipschitz continuity: differentiability, absolute continuity, Rademacher's theorem, uniform convergence, and equicontinuity, distinguishing it by focusing on analytic and topological consequences rather than the definition itself.",
+    "summary_ru": "Раздел «Свойства» посвящён связи липшицевости с дифференцируемостью, абсолютной непрерывностью и равномерной непрерывностью, а также устойчивости класса при равномерном пределе. В отличие от других разделов, здесь рассматриваются аналитические и функционально-аналитические характеристики, а не определение или примеры."
+  },
+  "Lipschitz continuity::Lipschitz manifolds": {
+    "article": "Lipschitz continuity",
+    "section": "Lipschitz manifolds",
+    "summary_en": "This section defines Lipschitz manifolds via bilipschitz transition maps forming a pseudogroup, enabling locally Lipschitz maps without metrics. It distinguishes itself by positioning this structure between PL and topological manifolds, enabling analysis via Rademacher's theorem.",
+    "summary_ru": "Раздел посвящён определению липшицевых многообразий через атлас с билипшицевыми отображениями перехода и локально липшицевых функций между ними без задания метрики. От других разделов он отличается акцентом на промежуточность структуры между PL- и топологическими многообразиями и применением теоремы Радемахера."
+  },
+  "Lipschitz continuity::One-sided Lipschitz": {
+    "article": "Lipschitz continuity",
+    "section": "One-sided Lipschitz",
+    "summary_en": "This section defines one-sided Lipschitz continuity for set-valued maps using an inner-product inequality, distinguishing it from standard Lipschitz continuity by allowing large or negative constants.",
+    "summary_ru": "Раздел посвящён определению односторонней липшицевости для многозначных функций через скалярное произведение и демонстрации того, что односторонняя константа может быть малой или отрицательной при большой классической константе Липшица."
+  },
+  "Linear differential equation::Overview": {
+    "article": "Linear differential equation",
+    "section": "Overview",
+    "summary_en": "This section defines linear differential equations as linear in the unknown function and its derivatives, distinguishing them from nonlinear equations and noting they may be ODEs or PDEs.",
+    "summary_ru": "Раздел «Обзор» посвящён определению линейного дифференциального уравнения как уравнения, линейного относительно неизвестной функции и её производных, и его общей форме записи. В отличие от других разделов статьи, здесь рассматриваются базовые понятия и различие между ОДУ и линейными уравнениями в частных производных."
+  },
+  "Linear differential equation::Types of solution": {
+    "article": "Linear differential equation",
+    "section": "Types of solution",
+    "summary_en": "This section explains how linear differential equations are solved by quadrature, distinguishing constant-coefficient and first-order cases from higher-order non-constant ones, and introduces holonomic functions and Kovacic's algorithm.",
+    "summary_ru": "Раздел посвящён типам решений линейных дифференциальных уравнений: решению квадратурами (включая метод Ковачича) и голономным функциям с их алгоритмическими свойствами. От других разделов отличается фокусом на способах представления и вычисления решений, а не на теории существования."
+  },
+  "Linear differential equation::Basic terminology": {
+    "article": "Linear differential equation",
+    "section": "Basic terminology",
+    "summary_en": "This section defines basic terminology for linear differential equations—order, constant term, homogeneous, constant coefficients, and solutions—distinguishing it by establishing foundational vocabulary and the solution structure (particular plus homogeneous) used throughout the article.",
+    "summary_ru": "Раздел посвящён базовой терминологии линейных дифференциальных уравнений: порядку, свободному члену, однородности, постоянным коэффициентам и структуре решений. От других разделов он отличается вводным определением понятий, а не методами решения."
+  },
+  "Linear differential equation::Linear differential operator": {
+    "article": "Linear differential equation",
+    "section": "Linear differential operator",
+    "summary_en": "This section defines linear differential operators as linear combinations of basic derivative operators with function coefficients, distinguishing it by establishing their vector space structure and kernel properties for solving differential equations.",
+    "summary_ru": "Раздел посвящён линейным дифференциальным операторам как линейным комбинациям базовых операторов дифференцирования с дифференцируемыми коэффициентами. В отличие от других разделов, здесь оператор рассматривается как алгебраический объект (векторное пространство, модуль, ядро), а не как уравнение."
+  },
+  "Linear differential equation::Homogeneous equation with constant coefficients": {
+    "article": "Linear differential equation",
+    "section": "Homogeneous equation with constant coefficients",
+    "summary_en": "This section explains solving homogeneous linear differential equations with constant coefficients using the characteristic polynomial and exponential solutions, distinguishing it by its focus on constant coefficients and Euler's method.",
+    "summary_ru": "Раздел посвящён решению однородных линейных дифференциальных уравнений с постоянными коэффициентами через характеристический многочлен и экспоненциальные решения. В отличие от других разделов, здесь рассматривается только однородный случай с постоянными коэффициентами."
+  },
+  "Linear differential equation::Non-homogeneous equation with constant coefficients": {
+    "article": "Linear differential equation",
+    "section": "Non-homogeneous equation with constant coefficients",
+    "summary_en": "This section presents the variation of constants method for solving non-homogeneous linear differential equations with constant coefficients, distinguishing it as the most general method applicable when other techniques like undetermined coefficients or annihilator methods fail.",
+    "summary_ru": "Раздел посвящён решению неоднородного линейного дифференциального уравнения с постоянными коэффициентами методом вариации постоянных. В отличие от других разделов, где рассматриваются частные методы (неопределённых коэффициентов, аннулятор), здесь представлен наиболее общий метод."
+  },
+  "Linear differential equation::First-order equation with variable coefficients": {
+    "article": "Linear differential equation",
+    "section": "First-order equation with variable coefficients",
+    "summary_en": "This section explains solving first-order linear ODEs with variable coefficients using the integrating factor method, distinguishing it by covering both homogeneous and non-homogeneous cases with a worked example.",
+    "summary_ru": "Раздел посвящён решению линейного дифференциального уравнения первого порядка с переменными коэффициентами методом интегрирующего множителя. В отличие от других разделов, здесь рассматривается общий неоднородный случай и вывод формулы общего решения."
+  },
+  "Linear differential equation::System of linear differential equations": {
+    "article": "Linear differential equation",
+    "section": "System of linear differential equations",
+    "summary_en": "This section covers systems of linear differential equations, including conversion to first-order matrix form 𝐲′ = A𝐲 + 𝐛 and solution via the fundamental matrix U(x), distinguishing it by addressing coupled unknown functions and matrix noncommutativity.",
+    "summary_ru": "Раздел посвящён системам линейных дифференциальных уравнений, их приведению к первому порядку и матричному виду 𝐲′ = A𝐲 + 𝐛. От других разделов отличается акцентом на некоммутативность матричного умножения и связанные с ней осложнения при решении."
+  },
+  "Linear differential equation::Higher order with variable coefficients": {
+    "article": "Linear differential equation",
+    "section": "Higher order with variable coefficients",
+    "summary_en": "This section covers higher-order linear ODEs with variable coefficients, explaining that unlike first-order equations, order ≥2 generally cannot be solved by quadrature (Picard–Vessiot theory), with Kovacic's algorithm and Cauchy–Euler equations as special solvable cases.",
+    "summary_ru": "Раздел посвящён решению линейных дифференциальных уравнений высших порядков с переменными коэффициентами, в частности невозможности решения квадратурой при порядке ≥2 согласно теории Пикара–Вессио (дифференциальной теории Галуа). От других разделов отличается акцентом на теоретико-галуа подход и алгоритм Ковачича для второго порядка."
+  },
+  "Linear differential equation::Holonomic functions": {
+    "article": "Linear differential equation",
+    "section": "Holonomic functions",
+    "summary_en": "This section defines holonomic (D-finite) functions as solutions of homogeneous linear differential equations with polynomial coefficients, covering their closure properties, holonomic sequences, and algorithmic calculus operations—distinguishing it from other sections by focusing on this function class and its computational applications.",
+    "summary_ru": "Раздел посвящён голономным (D-конечным) функциям — решениям однородных линейных дифференциальных уравнений с полиномиальными коэффициентами, их свойствам замкнутости и связи с голономными последовательностями. В отличие от других разделов, здесь акцент на алгоритмической представимости функций через определяющие уравнения для автоматизации вычислений."
+  },
+  "Ordinary differential equation::Overview": {
+    "article": "Ordinary differential equation",
+    "section": "Overview",
+    "summary_en": "This section defines ordinary differential equations (ODEs) as depending on a single independent variable, distinguishing them from partial and stochastic differential equations.",
+    "summary_ru": "Раздел «Обзор» посвящён определению обыкновенного дифференциального уравнения (ОДУ) как уравнения с одной независимой переменной. Его отличие — в противопоставлении ОДУ уравнениям в частных производных (PDE) и стохастическим дифференциальным уравнениям (SDE)."
+  },
+  "Ordinary differential equation::Context": {
+    "article": "Ordinary differential equation",
+    "section": "Context",
+    "summary_en": "This section surveys the many mathematical, scientific, and social contexts where ODEs arise, distinguishing it by its broad interdisciplinary scope and historical overview rather than technical methods.",
+    "summary_ru": "Раздел «Контекст» описывает области применения обыкновенных дифференциальных уравнений (ОДУ) в математике, естественных и социальных науках, приводя примеры от механики до экономики. В отличие от других разделов, он фокусируется на междисциплинарных контекстах и историческом вкладе учёных, а не на методах решения."
+  },
+  "Ordinary differential equation::Definition": {
+    "article": "Ordinary differential equation",
+    "section": "Definition",
+    "summary_en": "This section formally defines an ordinary differential equation of order n, its notation, and the explicit/normal form, distinguishing ODEs from partial differential equations and introducing classifications like autonomous, linear, and homogeneous.",
+    "summary_ru": "Раздел определяет обыкновенное дифференциальное уравнение n-го порядка как F(x, y, y′, …, y⁽ⁿ⁾) = 0 и вводит его явную форму, отличаясь от других разделов тем, что закладывает базовые термины и классификации (автономные, линейные, однородные), а не методы решения."
+  },
+  "Ordinary differential equation::Linear differential equations": {
+    "article": "Ordinary differential equation",
+    "section": "Linear differential equations",
+    "summary_en": "This section defines linear differential equations as linear polynomials in the unknown function and its derivatives, and explains their prominence because most elementary and special functions in physics and applied mathematics solve them.",
+    "summary_ru": "Раздел посвящён линейным дифференциальным уравнениям — уравнениям, линейным относительно неизвестной функции и её производных. В отличие от других разделов, он акцентирует их особую роль: большинство специальных функций являются решениями линейных ОДУ, а нелинейные задачи часто приближаются линейными."
+  },
+  "Ordinary differential equation::System of ODEs": {
+    "article": "Ordinary differential equation",
+    "section": "System of ODEs",
+    "summary_en": "This section defines systems of coupled ODEs in explicit and implicit vector forms, distinguishing implicit systems with nonsingular Jacobians from differential algebraic equations (DAEs) with singular Jacobians.",
+    "summary_ru": "Раздел посвящён системам связанных ОДУ, задаваемым вектор-функцией F, включая явную и неявную формы, а также критерий невырожденности якобиана для различения ODE и дифференциально-алгебраических уравнений (DAE). В отличие от других разделов, здесь рассматриваются векторные решения, фазовые портреты и расширения решений."
+  },
+  "Ordinary differential equation::Theories": {
+    "article": "Ordinary differential equation",
+    "section": "Theories",
+    "summary_en": "This section surveys historical and theoretical approaches to ODEs, including singular solutions, quadratures, function-definition perspectives, and Lie group symmetry methods, distinguishing it by focusing on foundational theories rather than solution techniques.",
+    "summary_ru": "Этот раздел посвящён теориям и методам решения дифференциальных уравнений, включая сингулярные решения, редукцию к квадратурам и групповой анализ Ли. В отличие от других разделов, он фокусируется на теоретических подходах и классификации, а не на конкретных типах уравнений или приложениях."
+  },
+  "Ordinary differential equation::Existence and uniqueness of solutions": {
+    "article": "Ordinary differential equation",
+    "section": "Existence and uniqueness of solutions",
+    "summary_en": "This section presents key theorems on the local and global existence and uniqueness of ODE solutions, notably the Peano and Picard–Lindelöf theorems, and discusses maximal domains of solutions.",
+    "summary_ru": "Раздел посвящён теоремам существования и единственности решений начальных задач для ОДУ (Пеано, Пикара–Линдлёфа) и их локальному/глобальному распространению. В отличие от других разделов, он акцентирует условия (непрерывность, липшицевость) и максимальную область решения."
+  },
+  "Ordinary differential equation::Reduction of order": {
+    "article": "Ordinary differential equation",
+    "section": "Reduction of order",
+    "summary_en": "This section explains reducing an nth-order explicit ODE to a system of n first-order coupled ODEs via substitution, distinguishing it by converting order rather than solving directly.",
+    "summary_ru": "Раздел посвящён сведению ОДУ n-го порядка к системе из n связанных уравнений первого порядка через замену y_i = y^(i−1). В отличие от других разделов, он описывает не методы решения, а универсальную технику понижения порядка."
+  },
+  "Ordinary differential equation::Summary of exact solutions": {
+    "article": "Ordinary differential equation",
+    "section": "Summary of exact solutions",
+    "summary_en": "This section tabulates exact closed-form solutions for first-order separable, homogeneous, exact, and inexact ODEs plus autonomous second-order equations, distinguishing it by cataloging solution methods and general integrals.",
+    "summary_ru": "Раздел посвящён точным решениям обыкновенных дифференциальных уравнений в замкнутой форме, включая методы разделения переменных, интегрирующего множителя и интегрирования. Он отличается от других разделов табличным форматом с конкретными классами уравнений и их общими решениями."
+  },
+  "Ordinary differential equation::Guessing solutions": {
+    "article": "Ordinary differential equation",
+    "section": "Guessing solutions",
+    "summary_en": "This section explains guessing and verifying ODE solutions via the Picard-Lindelöf uniqueness theorem, notably using undetermined coefficients—distinguished by its heuristic, less rigorous approach.",
+    "summary_ru": "Раздел посвящён методам угадывания решения ОДЕ, в частности методу неопределённых коэффициентов, когда теорема Пикара-Линделёфа гарантирует единственность. В отличие от других разделов, здесь акцент на нестрогих эвристиках поиска, а не на аналитических или численных методах."
+  },
+  "Ordinary differential equation::Software for ODE solving": {
+    "article": "Ordinary differential equation",
+    "section": "Software for ODE solving",
+    "summary_en": "This section lists software packages for solving ODEs, distinguishing itself by cataloging tools across symbolic, numerical, and statistical environments rather than explaining ODE theory or methods.",
+    "summary_ru": "Раздел перечисляет программное обеспечение для численного и символьного решения ОДУ. В отличие от теоретических разделов статьи, он носит прикладной характер и посвящён инструментам (MATLAB, SciPy, Mathematica и др.)."
+  },
+  "Picard–Lindelöf theorem::Overview": {
+    "article": "Picard–Lindelöf theorem",
+    "section": "Overview",
+    "summary_en": "This overview introduces the Picard–Lindelöf theorem, its sufficient conditions for unique solutions to initial value problems, and its alternative names, distinguishing it as a general introduction rather than a proof or application section.",
+    "summary_ru": "Раздел даёт обзор теоремы Пикара–Линделёфа: достаточные условия существования и единственности решения задачи Коши. В отличие от других разделов, здесь приводятся лишь общая формулировка и названия теоремы без доказательства и деталей применения."
+  },
+  "Picard–Lindelöf theorem::Theorem": {
+    "article": "Picard–Lindelöf theorem",
+    "section": "Theorem",
+    "summary_en": "This section states the Picard–Lindelöf theorem: under continuity in t and Lipschitz continuity in y on a closed rectangle, the initial value problem has a unique local solution. It is distinguished by presenting the formal existence and uniqueness result itself.",
+    "summary_ru": "Раздел формулирует теорему Пикара–Линделёфа: условия непрерывности по t и липшицевости по y гарантируют локальное существование и единственность решения задачи Коши. В отличие от других разделов, здесь приводится сама формулировка, а не доказательство или примеры."
+  },
+  "Picard–Lindelöf theorem::Proof sketch": {
+    "article": "Picard–Lindelöf theorem",
+    "section": "Proof sketch",
+    "summary_en": "This section sketches the proof of the Picard–Lindelöf theorem by converting the ODE into an integral equation and applying the Banach fixed-point theorem via Picard iteration to establish existence and uniqueness of solutions.",
+    "summary_ru": "Раздел описывает схему доказательства теоремы Пикара–Линделёфа через преобразование дифференциального уравнения в интегральное и применение теоремы Банаха о неподвижной точке. В отличие от других разделов, здесь акцент на методе последовательных приближений (итерациях Пикара), а не на формулировке или следствиях."
+  },
+  "Picard–Lindelöf theorem::Example of Picard iteration": {
+    "article": "Picard–Lindelöf theorem",
+    "section": "Example of Picard iteration",
+    "summary_en": "This section demonstrates Picard iteration on y'=1+y², showing successive iterates compute the Taylor series of tan(t) and converge only locally (|t|<π/2) due to loss of Lipschitz continuity at the poles.",
+    "summary_ru": "Раздел демонстрирует применение итераций Пикара–Линделёфа на примере решения y′=1+y² с y(0)=0, показывая сходимость к tan(t). В отличие от других разделов, здесь акцент на конкретном вычислении и локальной области сходимости |t|<π/2."
+  },
+  "Picard–Lindelöf theorem::Example of non-uniqueness": {
+    "article": "Picard–Lindelöf theorem",
+    "section": "Example of non-uniqueness",
+    "summary_en": "Contrasts linear and nonlinear ODEs at a stationary point to show non-uniqueness when f(y)=y^(2/3) fails Lipschitz continuity, unlike the unique linear case.",
+    "summary_ru": "Раздел посвящён примеру неединственности решения ОДУ, когда стационарная точка достигается за конечное время. В отличие от других разделов, здесь показано нарушение условия Липшица для f(y)=y^(2/3) в окрестности y=0."
+  },
+  "Picard–Lindelöf theorem::Detailed proof": {
+    "article": "Picard–Lindelöf theorem",
+    "section": "Detailed proof",
+    "summary_en": "This section provides the detailed proof of the Picard–Lindelöf theorem by constructing the Picard operator and applying the Banach fixed-point theorem, distinguishing it from other sections by its rigorous verification of continuity, boundedness, and contraction conditions.",
+    "summary_ru": "Этот раздел посвящён детальному доказательству теоремы Пикара–Линделёфа через применение теоремы Банаха о неподвижной точке к оператору Пикара. В отличие от других разделов, здесь основное внимание уделяется строгой проверке условий сжимающего отображения и непрерывности."
+  },
+  "Picard–Lindelöf theorem::Optimization of the solution's interval": {
+    "article": "Picard–Lindelöf theorem",
+    "section": "Optimization of the solution's interval",
+    "summary_en": "This section optimizes the solution interval in the Picard–Lindelöf theorem by using an iterated contraction argument to remove dependence on the Lipschitz constant L, distinguishing it from the standard existence-uniqueness proof.",
+    "summary_ru": "Раздел посвящён оптимизации интервала существования решения: с помощью обобщённой теоремы Банаха о неподвижной точке (итерации оператора Пикара) устраняется зависимость от константы Липшица L. В отличие от других разделов, здесь доказывается, что интервал зависит только от области определения поля и его максимума."
+  },
+  "Picard–Lindelöf theorem::Other existence theorems": {
+    "article": "Picard–Lindelöf theorem",
+    "section": "Other existence theorems",
+    "summary_en": "This section contrasts alternative existence theorems (Peano, Carathéodory, Okamura) with Picard–Lindelöf, highlighting weaker continuity assumptions and the distinction between existence and uniqueness.",
+    "summary_ru": "Раздел посвящён альтернативным теоремам существования: теореме Пеано (существование без единственности при непрерывности f) и теореме Каратеодори (существование при более слабых условиях). В отличие от теоремы Пикара–Линделёфа, здесь рассматриваются случаи без липшицевости и обсуждаются необходимые и достаточные условия единственности."
+  },
+  "Picard–Lindelöf theorem::Global existence of solution": {
+    "article": "Picard–Lindelöf theorem",
+    "section": "Global existence of solution",
+    "summary_en": "This section addresses global existence of solutions beyond the local interval, distinguishing itself by examining conditions (global vs. locally Lipschitz f, compact manifolds) under which solutions extend to all time or may fail to exist.",
+    "summary_ru": "Раздел посвящён глобальному существованию решения: условиям (глобальная липшицевость, компактное многообразие), при которых локальный интервал из теоремы Пикара–Линделёфа продолжается на всё R. В отличие от других разделов, здесь рассматривается поведение решений за пределами локального интервала."
+  },
+  "Integrating factor::Overview": {
+    "article": "Integrating factor",
+    "section": "Overview",
+    "summary_en": "This overview defines an integrating factor as a function used to solve non-exact ordinary differential equations and inexact differentials in multivariable calculus and thermodynamics, distinguishing it from sections on specific solution methods.",
+    "summary_ru": "Раздел «Overview» посвящён общему определению интегрирующего множителя как функции для решения дифференциальных уравнений, включая приведение неточных дифференциалов к точным. В отличие от других разделов, он даёт концептуальное введение и примеры применения, не углубляясь в методы вычислений."
+  },
+  "Integrating factor::Use": {
+    "article": "Integrating factor",
+    "section": "Use",
+    "summary_en": "This section explains how integrating factors are used to solve differential equations, including nonlinear second-order and canonical first-order linear forms, and derives the integrating factor e^{∫P(x)dx}. It distinguishes itself by focusing on practical application and derivation rather than the general definition.",
+    "summary_ru": "Раздел «Use» посвящён практическому применению интегрирующего множителя для решения дифференциальных уравнений, включая нелинейные второго порядка и канонические линейные первого порядка. В отличие от других разделов статьи, здесь основное внимание уделяется примерам использования и выводу формулы M(x)=e^{∫P(x)dx}, а не теоретическим основам."
+  },
+  "Wronskian::Overview": {
+    "article": "Wronskian",
+    "section": "Overview",
+    "summary_en": "This overview defines the Wronskian as the determinant of a matrix of functions and their derivatives, noting its 1812 origin and use in differential equations to show linear independence.",
+    "summary_ru": "Раздел «Обзор» посвящён определению вронскиана — детерминанта матрицы из n дифференцируемых функций и их производных до порядка n−1. В отличие от других разделов, он даёт лишь общее введение и историческую справку, не углубляясь в свойства или приложения."
+  },
+  "Wronskian::Definition": {
+    "article": "Wronskian",
+    "section": "Definition",
+    "summary_en": "This section defines the Wronskian as the determinant of a matrix of functions and their derivatives, distinguishing it by establishing the core formula and notation used throughout the article.",
+    "summary_ru": "Раздел «Definition» вводит понятие вронскиана — определителя матрицы из функций и их производных до (n−1)-го порядка — и даёт его общую формулу. В отличие от других разделов, здесь не рассматриваются свойства или приложения, а только формальное определение и связь с линейными дифференциальными уравнениями."
+  },
+  "Wronskian::The Wronskian and linear independence": {
+    "article": "Wronskian",
+    "section": "The Wronskian and linear independence",
+    "summary_en": "This section explains how the Wronskian tests linear independence, noting that vanishing W=0 does not generally imply dependence and requires extra conditions like analyticity.",
+    "summary_ru": "Раздел посвящён связи вронскиана с линейной независимостью функций: его необращение в нуль доказывает независимость, но обратное неверно без дополнительных условий. От других разделов отличается разбором контрпримеров и теорем Бохера–Волссона о достаточных условиях."
+  },
+  "Wronskian::Application to linear differential equations": {
+    "article": "Wronskian",
+    "section": "Application to linear differential equations",
+    "summary_en": "This section explains how the Wronskian solves linear differential equations by reducing them to first-order equations and determines the final solution from n−1 known solutions, distinguishing it from other sections by focusing on differential equation applications.",
+    "summary_ru": "Раздел посвящён применению вронскиана для нахождения неизвестного решения линейного дифференциального уравнения по известным и усилению связи вронскиана с линейной независимостью в контексте ОДУ. В отличие от других разделов, здесь вронскиан используется как инструмент решения дифференциальных уравнений, а не только как определитель для проверки линейной независимости функций."
+  },
+  "Wronskian::Generalized Wronskians": {
+    "article": "Wronskian",
+    "section": "Generalized Wronskians",
+    "summary_en": "Generalized Wronskians extend the Wronskian to n functions of several variables using constant-coefficient partial differential operators, distinguishing this section by addressing the failure of the converse and special cases like polynomials.",
+    "summary_ru": "Раздел посвящён обобщённым вронскианам для функций нескольких переменных через линейные дифференциальные операторы. В отличие от других разделов, здесь рассматривается многомерный случай и условия обратимости теоремы о линейной зависимости."
+  },
+  "Wronskian::History": {
+    "article": "Wronskian",
+    "section": "History",
+    "summary_en": "This section covers the origin of the Wronskian, crediting Hoene-Wroński's 1812 introduction and Thomas Muir's 1882 naming, distinguishing it as the historical background rather than the mathematical definition or properties.",
+    "summary_ru": "Раздел History посвящён происхождению термина «вронскиан»: его введению Юзефом Гёне-Вроньским (1812) и присвоению современного названия Томасом Мьюиром (1882). В отличие от других разделов статьи, здесь рассматривается историческая атрибуция, а не математические свойства или применения определителя Вронского."
+  }
+}
