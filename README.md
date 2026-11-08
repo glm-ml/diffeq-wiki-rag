@@ -1,7 +1,6 @@
 # diffeq-wiki-rag
 
 ![CI](https://github.com/glm-ml/diffeq-wiki-rag/actions/workflows/ci.yml/badge.svg)
-![Deploy](https://github.com/glm-ml/diffeq-wiki-rag/actions/workflows/deploy.yml/badge.svg)
 
 Agentic RAG-ассистент по англоязычным статьям Википедии о дифференциальных
 уравнениях. Отвечает по-русски, цитирует источники и показывает, какие
